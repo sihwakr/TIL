@@ -19,3 +19,16 @@
     - `staging area` 에 올라간 파일들의 스냅샷을 찍어 `.git directory`에 저장
     - 일반 적으로 -m 옵션을 넣어서 커밋메세지를 추가
     - `git commit -m "message"`
+
+
+
+## 원격 저장소 관련 명령어
+
+- `git remote`
+    - 원격저장소 주소를 관리하기 위한 명령어
+    -`git remot add origin <url>`
+
+
+- git push
+    - 원격저장소에 호컬 코드를 업로드 하기 위한 명령어
+    - `git push <remote> <branch>`
